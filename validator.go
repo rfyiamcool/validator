@@ -389,7 +389,6 @@ func PointerRequiredBool(val *bool) bool {
 	}
 
 	return RequiredBool(*val)
-
 }
 
 func PointerRangeInt(val *int, min, max int) bool {
